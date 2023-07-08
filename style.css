@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* for header */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li {
+    margin: 25px 15px;
+}
+
+/* for main section */
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/background.png),linear-gradient(45deg, #161616,#2b2b2b);
+    color: white;
+}
+.banner {
+    width: 400px;
+}
+
+.cover-tagline{
+    font-size: 50px;
+}
+
+.cover-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(184, 119, 0);
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
