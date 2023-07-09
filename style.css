@@ -48,8 +48,126 @@ nav{
 
 .btn{
     padding: 10px 20px;
+    margin: 20px;
     background-color: rgb(184, 119, 0);
     color: white;
     border: none;
     border-radius: 5%;
+}
+
+.gray-btn{
+    background-color: rgb(35, 35, 35);
+    font-size: 18;
+    padding: 15px 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.service h3 {
+    padding: 50px;
+    font-size: 40px;
+}
+
+.about-section{
+    padding-top: 50px;
+}
+
+.about-tag {
+    text-align: center;
+    font-size: 40px;
+}
+
+.service-tag {
+    text-align: center;
+    font-size: 80px;
+}
+
+.about-img {
+    width: 300px;
+}
+
+
+.right > p {
+    margin: 20px 0px;
+}
+
+.about h3 {
+    font-size: 40px;
+}
+
+.right > p{
+    font-size: 20px;
+}
+
+.service {
+    background-color: black;
+    color: white;
+}
+
+
+.service p {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid white;
+    margin: 10px 100px 20px 100px;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 0px 0px 50px 15px rgb(101, 101, 101);
+}
+
+.card > img {
+    width: 100px;
+    margin: 20px;
+}
+
+
+/* footer section */
+
+footer {
+    background-image: url(), linear-gradient(180deg, black, rgb(47, 47, 47));
+    color: white;
+    padding: 150px;
+}
+
+.copy p {
+    text-align: center;
+    margin: 20px;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.foot-box {
+    margin: 10px 50px 20px 50px;
+    border: none;
+}
+
+footer li {
+   list-style: none; 
+   padding: 5px 0px;
+}
+
+.foot-headings {
+    font-size: 20px;
+}
+
+.foot-logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px ;
 }
